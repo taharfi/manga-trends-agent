@@ -1,3 +1,4 @@
+from pytrends.exceptions import TooManyRequestsError
 import os, json, time, requests
 from datetime import datetime, timezone
 
